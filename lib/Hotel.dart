@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'constants.dart';
-import 'InputPage.dart';
 import 'HotelInput.dart';
 
 void main() => runApp(YGOhome());
