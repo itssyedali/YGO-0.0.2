@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ygo_hotel/screens/favorites_screen.dart';
-import 'screens/InputPage.dart';
-import 'models/constants.dart';
-//import 'HotelInput.dart';
+import '../models/constants.dart';
+import '../screens/HotelInput.dart';
 
 void main() => runApp(YGOhome());
 
@@ -14,10 +12,7 @@ class YGOhome extends StatelessWidget {
         primaryColor: kPrimaryColor,
         scaffoldBackgroundColor: kSecondaryColor,
       ),
-      home: InputPage(),
-      routes: {
-        FavoritesScreen.routeName: (ctx) => FavoritesScreen(),
-      },
+      home: HotelInput(),
     );
   }
 }
